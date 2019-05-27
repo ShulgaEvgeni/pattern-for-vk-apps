@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("./fonts/GothaProMed.otf");
+    font-weight: 500;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("./fonts/GothaProReg.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url("./fonts/GothaProBol.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    --header_background: #87C2E7; /* цвет шапки */
+    --header_alternate_background: #87C2E7; /* цвет статус бара на iOS */
+    --background_page: #BEE4F7; /*  */
+    /* --background_content: #BEE4F7; */
+    --font-android: Gotham Pro; /* основные шпифты для все аппы на android */
+    --font-ios: Gotham Pro; /* основные шпифты для все аппы на iOS */
+}
+
+/* Уберает линию после шапки на iOS */
+.PanelHeader-bg::after {
+    height: 0!important;
+}

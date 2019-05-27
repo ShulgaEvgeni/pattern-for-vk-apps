@@ -1,0 +1,7 @@
+.header-title {
+    display: flex;
+    align-items: center;
+}
+.header-title img {
+    margin-right: 10px;
+}
