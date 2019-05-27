@@ -1,10 +1,7 @@
-## How to install
-
-`npx @vkontakte/create-vk-app <folder name>`
-
 ## How to start
 
-Go to created folder and run:
-`yarn start` || `npm start` — this will start dev server with hot reload on `localhost:10888`.
-
-`yarn run build` || `npm run build` — this will build production bundle, with treeshaking, uglify and all this modern fancy stuff
+1. перейти в папку где будет лежать аппа
+2. открыть git bash
+3. прописать там `git clone https://github.com/ShulgaEvgeni/pattern-for-vk-apps.git`
+4. пользоваться
+    *В index.html присуствует скрипт для мобильных браузеров, он закоментирован
